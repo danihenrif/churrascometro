@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Churrascometro</title>
+    <title>Churrascômetro</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="form-container">
+            <h1>Churrascômetro</h1>
+            <input type="number" name="adultos" id="adultos" placeholder="Número de adultos">
+            <input type="number" name="criancas" id="criancas" placeholder="Número de crianças">
+            <input type="number" name="duracao" id="duracao" placeholder="Tempo do evento(em horas)">
+            <button onclick="calculaQuantidades()">Calcular</button>
+            <br><br>
+            <p id="carne"></p>
+            <p id="cerveja"></p>
+            <p id="refri"></p>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
